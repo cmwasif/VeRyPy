@@ -28,7 +28,7 @@ __status__ = "Development"
 def cawlip_savings_init(D,d,C,L,minimize_K=False):
     """
     This implements the Robbins & Turner (1979) extension to the parallel
-     savings algorithm of Clarke and Wright (1964). Clarke and Wright algorithm
+     savings algorithm of Clarke and Wright (1967). Clarke and Wright algorithm
      and its saving function are used as is, but the savings procedure is
      followed by 2-opt* improvement phase, where all possible ways of
      connecting any two edges of the solution are searched and improving moves
